@@ -1,0 +1,16 @@
+{
+  // 使用2个空格作为tab,并将对齐基准线设置为2个字符
+  "editor.tabSize": 2,
+  // 保存文件时自动格式化
+  "editor.formatOnSave": true,
+  // 每次保存的时候将代码按eslint格式进行修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  // 打开对vue的lint,并自动fix
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
